@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B882C83-EE73-44B2-8AFE-457322DBE0D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DownBad.My.MyApplication</StartupObject>
+    <RootNamespace>DownBad</RootNamespace>
+    <AssemblyName>DownBad</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DownBad.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DownBad.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Mami%28perfection%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DownBad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DownBad.Designer.vb">
+      <DependentUpon>DownBad.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DownBad.resx">
+      <DependentUpon>DownBad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mami%28perfection%29.ico" />
+    <None Include="Resources\IMG_0754[1].JPG" />
+    <None Include="Resources\IMG_0885[1].JPG" />
+    <None Include="Resources\IMG_0863[1].JPG" />
+    <None Include="Resources\IMG_1527[1].JPG" />
+    <None Include="Resources\IMG_1496[1].JPG" />
+    <None Include="Resources\IMG_1455[1].JPG" />
+    <None Include="Resources\IMG_1715[1].JPG" />
+    <None Include="Resources\IMG_1523[1].JPG" />
+    <None Include="Resources\IMG_1477[1].JPG" />
+    <None Include="Resources\IMG_1586[1].JPG" />
+    <None Include="Resources\IMG_1520[1].JPG" />
+    <None Include="Resources\IJPP6901[1].JPG" />
+    <None Include="Resources\IMG_1771[1].JPG" />
+    <None Include="Resources\IMG_1768[1].JPG" />
+    <None Include="Resources\IMG_1778[1].JPG" />
+    <None Include="Resources\IMG_1754[1].JPG" />
+    <None Include="Resources\IMG_1762[1].JPG" />
+    <None Include="Resources\IMG_1742[1].JPG" />
+    <None Include="Resources\IMG_0588[1].JPG" />
+    <None Include="Resources\IMG_1786[1].JPG" />
+    <None Include="Resources\IMG_1791[1].JPG" />
+    <None Include="Resources\IMG_1792[1].JPG" />
+    <None Include="Resources\IMG_0241[1].JPG" />
+    <None Include="Resources\IMG_0117[1].JPG" />
+    <None Include="Resources\IMG_0236[1].JPG" />
+    <None Include="Resources\IMG_1724[1].JPG" />
+    <None Include="Resources\IMG_1543[1].JPG" />
+    <None Include="Resources\IMG_1549[1].JPG" />
+    <None Include="Resources\IMG_1618[1].JPG" />
+    <None Include="Resources\IMG_1689[1].PNG" />
+    <None Include="Resources\IMG_1565.JPG" />
+    <None Include="Resources\IMG_1564.JPG" />
+    <None Include="Resources\IMG_1563.JPG" />
+    <None Include="Resources\IMG_1562.PNG" />
+    <None Include="Resources\IMG_1515.JPG" />
+    <None Include="Resources\IMG_1514.JPG" />
+    <None Include="Resources\IMG_1156.JPG" />
+    <None Include="Resources\IMG_0991.JPG" />
+    <None Include="Resources\IMG_0635.JPG" />
+    <None Include="Resources\IMG_0509.JPG" />
+    <None Include="Resources\IMG_0505.JPG" />
+    <None Include="Resources\IMG_0281.JPG" />
+    <None Include="Resources\IMG_0257.JPG" />
+    <None Include="Resources\IMG_0241.JPG" />
+    <None Include="Resources\IMG_0102.PNG" />
+    <None Include="Resources\IMG_0096.JPG" />
+    <None Include="Resources\IMG_0648.JPG" />
+    <None Include="Resources\IMG_0208.JPG" />
+    <None Include="Resources\IMG_0983.JPG" />
+    <None Include="Resources\IMG_0345.JPG" />
+    <None Include="Resources\IMG_0103.JPG" />
+    <None Include="Resources\IMG_0209.JPG" />
+    <None Include="Resources\IMG_0267.JPG" />
+    <None Include="Resources\IMG_0091.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
