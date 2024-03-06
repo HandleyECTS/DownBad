@@ -1,4 +1,4 @@
-﻿Imports System.Resources
+Imports System.Resources
 Imports System.Collections.ObjectModel
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar
 Public Class ALLHAIL
