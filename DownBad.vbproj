@@ -125,6 +125,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mami%28perfection%29.ico" />
+    <None Include="Resources\IMG_2059[1].JPG" />
+    <None Include="Resources\IMG_2055[1].JPG" />
+    <None Include="Resources\IMG_2049[1].JPG" />
+    <None Include="Resources\IMG_2046[1].JPG" />
+    <None Include="Resources\IMG_2042[1].JPG" />
+    <None Include="Resources\IMG_2040[1].JPG" />
+    <None Include="Resources\IMG_2039[1].JPG" />
+    <None Include="Resources\IMG_2032[1].JPG" />
+    <None Include="Resources\IMG_2031[1].JPG" />
+    <None Include="Resources\IMG_2015[1].JPG" />
+    <None Include="Resources\IMG_2018[1].JPG" />
+    <None Include="Resources\IMG_2026[1].JPG" />
+    <None Include="Resources\IMG_2023[1].PNG" />
     <None Include="Resources\IMG_0356[1].JPG" />
     <None Include="Resources\IMG_0307[1].JPG" />
     <None Include="Resources\IMG_0296[1].JPG" />
