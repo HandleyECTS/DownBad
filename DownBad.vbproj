@@ -125,6 +125,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mami%28perfection%29.ico" />
+    <None Include="Resources\IMG_2145[1].JPG" />
+    <None Include="Resources\IMG_2144[1].JPG" />
+    <None Include="Resources\IMG_2143[1].JPG" />
+    <None Include="Resources\IMG_2141[1].JPG" />
+    <None Include="Resources\IMG_2140[1].JPG" />
+    <None Include="Resources\IMG_2137[1].JPG" />
+    <None Include="Resources\IMG_2136[1].JPG" />
+    <None Include="Resources\IMG_2135[1].JPG" />
+    <None Include="Resources\IMG_2134[1].JPG" />
+    <None Include="Resources\IMG_2131[1].JPG" />
+    <None Include="Resources\IMG_2130[1].JPG" />
+    <None Include="Resources\IMG_2128[1].JPG" />
+    <None Include="Resources\IMG_2125[1].JPG" />
+    <None Include="Resources\IMG_2120[1].JPG" />
+    <None Include="Resources\IMG_2119[1].JPG" />
+    <None Include="Resources\IMG_2118[1].JPG" />
+    <None Include="Resources\IMG_2116[1].JPG" />
+    <None Include="Resources\IMG_2115[1].JPG" />
+    <None Include="Resources\IMG_2113[1].JPG" />
+    <None Include="Resources\IMG_2112[1].JPG" />
+    <None Include="Resources\IMG_2110[1].JPG" />
+    <None Include="Resources\IMG_2108[1].JPG" />
+    <None Include="Resources\IMG_1887[1].JPG" />
+    <None Include="Resources\IMG_2068[1].JPG" />
+    <None Include="Resources\IMG_2067[1].JPG" />
+    <None Include="Resources\IMG_2066[1].JPG" />
+    <None Include="Resources\IMG_2063[1].JPG" />
+    <None Include="Resources\IMG_2062[1].JPG" />
+    <None Include="Resources\IMG_2061[1].JPG" />
+    <None Include="Resources\IMG_2060[1].JPG" />
     <None Include="Resources\IMG_2059[1].JPG" />
     <None Include="Resources\IMG_2055[1].JPG" />
     <None Include="Resources\IMG_2049[1].JPG" />
