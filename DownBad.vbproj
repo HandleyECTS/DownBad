@@ -125,6 +125,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mami%28perfection%29.ico" />
+    <None Include="Resources\IMG_2211[1].JPG" />
+    <None Include="Resources\IMG_2241[1].JPG" />
+    <None Include="Resources\IMG_2240[1].JPG" />
+    <None Include="Resources\IMG_2285[1].JPG" />
+    <None Include="Resources\IMG_2239[1].JPG" />
+    <None Include="Resources\IMG_2238[1].JPG" />
     <None Include="Resources\IMG_E2129[1].JPG" />
     <None Include="Resources\IMG_2189[1].JPG" />
     <None Include="Resources\IMG_2187[1].JPG" />
